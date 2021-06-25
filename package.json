@@ -1,14 +1,14 @@
 {
   "name": "where-call",
-  "version": "1.0.0",
+  "version": "1.0.1-beta",
   "description": "get the call function statement location in source code like magic✨✨",
   "main": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
   "scripts": {
-    "start": "tsc && node dist/index.js",
     "build": "tsc",
     "watch": "ts-node-dev --respawn --transpile-only --clear src/index.ts",
-    "test": "tsc && node test.js"
+    "test": "tsc && node test.js",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "function",
@@ -34,6 +34,13 @@
     "git-cz": "^4.7.6",
     "ts-node-dev": "^1.1.6",
     "typescript": "^4.3.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TokisakiYuu/where-call.git"
   },
   "config": {
     "commitizen": {
