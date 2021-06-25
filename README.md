@@ -1,5 +1,10 @@
 # Where Call
 
+### install
+```bash
+npm install where-call
+```
+
 ### functions
 
 - **whereIsCallFunction(): Info | null**
