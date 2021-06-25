@@ -1,6 +1,4 @@
-## Where is ...
-
-
+# Where Call
 
 ### functions
 
@@ -31,7 +29,7 @@ foo();
 
 ### object
 
-- **Info** location detail
+- **Info**: location detail
   - line: *number*
   - column: *number*
   - file: *string*
