@@ -1,0 +1,43 @@
+{
+  "name": "where-call",
+  "version": "1.0.0",
+  "description": "get the call function statement location in source code like magic✨✨",
+  "main": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc",
+    "watch": "ts-node-dev --respawn --transpile-only --clear src/index.ts",
+    "test": "tsc && node test.js"
+  },
+  "keywords": [
+    "function",
+    "location",
+    "call",
+    "debug",
+    "runtime",
+    "position",
+    "source",
+    "stack",
+    "trace",
+    "stack-utils"
+  ],
+  "author": "tokisakiyuu <tokisakiyuu@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "stack-utils": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4",
+    "@types/stack-utils": "^2.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "git-cz": "^4.7.6",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
